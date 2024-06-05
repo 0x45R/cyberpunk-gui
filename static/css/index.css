@@ -1,0 +1,18 @@
+body{
+background-image:linear-gradient(var(--background-color), var(--background-alternate-color));
+font-family: Cyberpunk;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+.logo{
+scale:1;transition:scale 300ms;top:1rem;left:1rem;position:absolute;display:flex;flex-direction:column;gap:1rem
+}
+
+p{
+	color:var(--text-alternate-color);
+}
+.layout{display:flex;flex-direction:row;gap:1rem;align-items:center;}
+
