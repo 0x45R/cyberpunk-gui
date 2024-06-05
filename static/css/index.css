@@ -14,5 +14,5 @@ scale:1;transition:scale 300ms;top:1rem;left:1rem;position:absolute;display:flex
 p{
 	color:var(--text-alternate-color);
 }
-.layout{display:flex;flex-direction:row;gap:1rem;align-items:center;}
+.layout{display:flex;flex-direction:row;gap:1rem;align-items:center;justify-content:center;flex-wrap:wrap}
 
